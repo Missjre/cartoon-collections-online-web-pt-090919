@@ -16,7 +16,6 @@ def long_planeteer_calls(calls_long)
       calls_long = ["axe", "earth", "wind", "fire"]
       expect(long_planeteer_calls(calls_long))=(true)
     end
-end
 
 def find_the_cheese(cheese_types)
       cheddar_cheese = %w[banana cheddar sock]
