@@ -5,14 +5,12 @@ def roll_call_dwarves(cartoons)
     end
 
 def summon_captain_planet
-   capitalizes each element and adds an exclamation mark (test 1)
       fruits = %w[apple banana orange]
       result = summon_captain_planet(fruits)
       ['Apple!', 'Banana!', 'Orange!'].each { |w| expect(result).to include w }
     end
 
 def long_planeteer_calls(calls_long)
-  #returns true if any calls are longer than 4 characters
       calls_long = ["axe", "earth", "wind", "fire"]
       expect(long_planeteer_calls(calls_long))=(true)
     end
