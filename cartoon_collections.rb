@@ -21,6 +21,5 @@ end
 def find_the_cheese(cheese_types)
       cheddar_cheese = %w[banana cheddar sock]
       cheese_types(find_the_cheese(cheddar_cheese))=(cheddar)
-    end
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
